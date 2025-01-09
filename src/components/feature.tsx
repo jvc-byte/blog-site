@@ -17,12 +17,13 @@ export default function Feature() {
                             </p>
                         </div>
                     </div>
-                    <div className="relative h-full w-full">
+                    <div className="relative min-h-[300px] h-[400px] sm:h-[500px] lg:h-[600px] w-full">
                         <Image
                             src="https://media-cdn.kroll.com/jssmedia/kroll-images/insights/final-jacob-silverman-interviewed-by-sara-sidner-home-page-feature.png?h=350&iar=0&w=670&mw=640"
                             alt="Product screenshot"
                             fill
                             className="rounded-xl object-cover"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         />
                     </div>
                 </div>
