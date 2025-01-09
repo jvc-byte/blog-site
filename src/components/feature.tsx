@@ -17,13 +17,14 @@ export default function Feature() {
                             </p>
                         </div>
                     </div>
-                    <Image
-                        alt="Product screenshot"
-                        src="https://media-cdn.kroll.com/jssmedia/kroll-images/insights/final-jacob-silverman-interviewed-by-sara-sidner-home-page-feature.png?h=350&iar=0&w=670&mw=640"
-                        width={2432}
-                        height={1442}
-                        className="w-[30rem] max-w-none rounded-lg shadow-xl ring-1 ring-gray-400/10 sm:w-[44rem] md:-ml-4 lg:-ml-0"
-                    />
+                    <div className="relative h-full w-full">
+                        <Image
+                            src="https://media-cdn.kroll.com/jssmedia/kroll-images/insights/final-jacob-silverman-interviewed-by-sara-sidner-home-page-feature.png?h=350&iar=0&w=670&mw=640"
+                            alt="Product screenshot"
+                            fill
+                            className="rounded-xl object-cover"
+                        />
+                    </div>
                 </div>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                     <button className="btn btn-wide">More on CNN update</button>

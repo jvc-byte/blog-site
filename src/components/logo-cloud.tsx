@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function LogoCloud() {
     return (
-      <div className="bg-white py-24 sm:py-0">
+      <div className="py-24 sm:py-0">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-center text-lg/8 font-semibold text-gray-900">
             Trusted by the world’s most innovative teams
