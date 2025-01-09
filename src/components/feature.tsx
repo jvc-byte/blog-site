@@ -17,7 +17,7 @@ export default function Feature() {
                             </p>
                         </div>
                     </div>
-                    <div className="relative min-h-[300px] h-[400px] sm:h-[500px] lg:h-[600px] w-full">
+                    <div className="relative min-h-[300px] h-[300px] sm:h-[350px] lg:h-[370px] w-full">
                         <Image
                             src="https://media-cdn.kroll.com/jssmedia/kroll-images/insights/final-jacob-silverman-interviewed-by-sara-sidner-home-page-feature.png?h=350&iar=0&w=670&mw=640"
                             alt="Product screenshot"
